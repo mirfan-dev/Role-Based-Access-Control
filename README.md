@@ -9,13 +9,13 @@
 <b>Step 4: Create DTO Class (ReqRes)</b><br>
 <p><li>This Data Transfer Object (DTO) is used for handling requests and responses, including validation annotations.</li></p>
 <b>Step 5: Create JWT Utility (JWTUtils)</b><br>
-<p><li>The JWT Utility class is responsible for generating, validating, and extracting information from JSON Web Tokens (JWTs). These tokens are used for securing your Spring Boot APIs and authenticating users.</li></p>
+<p><li>The Jwt Utility class is responsible for generating, validating, and extracting information from JSON Web Tokens (JWTs). These tokens are used for securing your Spring Boot APIs and authenticating users.</li></p>
 <b>Step 6: Create the OurUserDetailsService Class</b><br>
 <p><li>This service will implement UserDetailsService to load user details by email:</li></p>
-<b>Step 7: Set Up Security Configuration (SecurityConfig)</b><br>
-<p><li>Configure Spring Security to handle authentication, role-based access, JWT authentication, and stateless session management:</li></p>
-<b>Step 8: Create the JWTAuthFilter Class</b><br>
+<b>Step 7: Create the JWTAuthFilter Class</b><br>
 <p><li>This filter extracts JWT tokens from the request, validates them, and sets the authentication context:</li></p>
+<b>Step 8: Set Up Security Configuration (SecurityConfig)</b><br>
+<p><li>Configure Spring Security to handle authentication, role-based access, JWT authentication, and stateless session management:</li></p>
 <b>Step 9: Implement OurUserServiceImpl Class</b><br>
 <p><li>This class will implement the business logic for managing users, such as registering users and fetching user details. It will interact with the UsersRepo repository.</li></p>
 <b>Step 10: Implement Controller Class (UserController)</b><br>
